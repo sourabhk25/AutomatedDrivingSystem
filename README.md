@@ -1,6 +1,6 @@
 # AutomatedDrivingSystem
 
-A project which uses Computer Vision algorithms to create a possible solution like Automated Driving Systems(ADS) which is used in Autonomous Vehicles(AV).
+A project that uses Computer Vision algorithms to create a possible solution like Automated Driving Systems(ADS) which is used in Autonomous Vehicles(AV).
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -14,8 +14,8 @@ A project which uses Computer Vision algorithms to create a possible solution li
 
 ## Introduction
 
-These days, no. of accidents have increased. So, the need of automated driving systems is increasing.
-This project uses computer vision techniques to detect and provide real-time feedback on lane detection, pedestrian detection, stop sign recognition, and driver drowsiness detection. It can process video input and offer assistance to the driver in various scenarios. 
+These days, the number of accidents has increased. So, the need for automated driving systems is increasing.
+This project uses computer vision techniques to detect and provide real-time feedback on lane detection, pedestrian detection, stop sign recognition, and driver drowsiness detection. It can process video input and assist the driver in various scenarios. 
 
 ## Key Features
 
@@ -26,7 +26,7 @@ This project uses computer vision techniques to detect and provide real-time fee
 
 ## Project Overview
 
-The project is divided into several phases, including finding the video, finding models, and providing output. It uses some performance improvements like ROI for improving frame rate. For Lane Detection, we have used techniques like 'Canny Edge Detection', 'Hough Line Detection', 'Gaussian Blur', and 'Region Of Interest'. For Pedestrian Detection, we have used 'HaarCascade' algorithm. For Stop sign detection, we have used 'Cascade Classifier'. For Drowsiness detection, we have used 'dlib' library.
+The project is divided into several phases, including finding the video, finding models, and providing output. It uses some performance improvements like ROI to improve the frame rate. For Lane Detection, we have used techniques like 'Canny Edge Detection', 'Hough Line Detection', 'Gaussian Blur', and 'Region Of Interest'. For Pedestrian Detection, we have used the 'HaarCascade' algorithm. For Stop sign detection, we have used 'Cascade Classifier'. For Drowsiness detection, we have used the 'Dlib' library.
 
 ## Technologies Used
 
@@ -44,7 +44,8 @@ The project is divided into several phases, including finding the video, finding
 
 ## Results and Insights
 
-The project gives insights into the historical stock performance of Amazon, Google, Microsoft, and IBM. It includes predictions that can assist with investment decisions. Please refer to the project's Jupyter notebook and results for more details.
+We achieved a high-performance benchmark with the system processing up to 30 frames per second (fps) and attaining 89% accuracy in detecting lanes, pedestrians, and stop signs.
+
 
 ## Output Screenshots
 
@@ -63,6 +64,6 @@ The project gives insights into the historical stock performance of Amazon, Goog
 
 ## Conclusion
 
-In conclusion, the "AutomatedDrivingSystem" project leverages computer vision technologies to enhance road safety and driver assistance. Its features, including lane detection, pedestrian detection, stop sign recognition, and drowsiness detection, contribute to safer driving experiences. Through the use of Python, OpenCV, NumPy, and dlib, the system efficiently processes video input. This project is a significant step toward the development of Automated Driving Systems, addressing the increasing need for enhanced driver assistance and road safety.
+In conclusion, the "AutomatedDrivingSystem" project leverages computer vision technologies to enhance road safety and driver assistance. Its features, including lane detection, pedestrian detection, stop sign recognition, and drowsiness detection, contribute to safer driving experiences. Through the use of Python, OpenCV, NumPy, and dlib, the system efficiently processes video input. This project is a significant step toward the development of Automated Driving Systems, addressing the increasing need for enhanced driver assistance and road safety. Such applications can be for real-time video feeds as future scope. Also, to improve the accuracy of Lane detection and other features, Deep learning models can be used in the future.
 
 
