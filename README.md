@@ -33,7 +33,7 @@ The project is divided into several phases, including finding the video, finding
 - Python
 - OpenCV
 - NumPy
-- dlib
+- Dlib
 
 
 ## How to Use
